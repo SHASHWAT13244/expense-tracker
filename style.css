@@ -1,0 +1,55 @@
+/* Background image and overlay */
+body {
+  background: url('images/1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  transition: background 0.5s ease-in-out;
+  color: #fff; /* text color on background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Dark overlay for readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+/* Music toggle button style and position */
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+/* Smooth theme toggle transitions */
+body, .navbar, .card {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  color: #eee;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.dark-mode .card {
+  background-color: rgba(30, 30, 30, 0.85);
+  color: #eee;
+}
+
+body.dark-mode .navbar {
+  background-color: #222 !important;
+}
