@@ -30,8 +30,7 @@ expense-tracker/
 │ └── background.jpg # Background image
 ├── music/
 │ └── paperback.mp3 # Background music
-└── README.md # This file
-
+└── README.md 
 
 ---
 
