@@ -2,8 +2,7 @@
 
 A stylish and functional **Expense Tracker** built using **HTML, CSS, JavaScript, Bootstrap 5**, and **Chart.js**. Designed for 2nd-year (4th semester) Computer Science students, this project showcases real-world frontend development with modern features.
 
-Live Demo 👉 [https:)  
-*(Replace with your actual URL)*
+Live Demo 👉 [https:https://shashwat13244.github.io/expense-tracker/)  
 
 ---
 
